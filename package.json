@@ -1,0 +1,16 @@
+{
+  "name": "mashaka",
+  "version": "1.0.0",
+  "description": "another telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "serve",
+    "start": "node index.js"
+  },
+  "author": "Stanley Masinde",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.32.0",
+    "telegraf-ratelimit": "^2.0.0"
+  }
+}
