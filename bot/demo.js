@@ -9,16 +9,13 @@ import * as config from '../config';
 const token = config.api_token;
 const bot = new Telegraf(token)
 
-bot.command('ban', (ctx)=>{
-    const chatId = ctx.message.chat.id;
-    const messageId = ctx.message.reply_to_message.message_id;
-
-    bot.telegram.deleteMessage(chatId, messageId ).then(deleted => {
-        console.log('deleted')
-    })
-
-    const user = ctx.message.from.id;
-    ctx.telegram.kickChatMember(chatId, user, 30000)
-})
-    
+bot.start((ctx) => {
+    let name = ctx.from.first_name;
+    ctx.replyWithMarkdown(
+        `Hi there **${name}**, I hope you are doing greate today.
+        I am an a multi-purpose to help you in your daily activities on telegram
+        Visit my page [here](https://github.com/stannlee/mashaka-bot).
+        `
+    )
+});
     
