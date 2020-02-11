@@ -1,3 +1,4 @@
+![Node.js CI](https://github.com/stannlee/mashaka-bot/workflows/Node.js%20CI/badge.svg)
 # mashaka-bot
 Mashaka is a multi-purpose telegram bot. It can help you in your daily activites
 like: Admistration, spam banning and many more to come
