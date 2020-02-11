@@ -1,16 +1,29 @@
 {
-  "name": "mashaka",
+  "name": "mashaka-bot",
   "version": "1.0.0",
-  "description": "another telegram bot",
+  "description": "Telegram Bot",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "serve",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stannlee/mashaka-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "admin",
+    "kenya"
+  ],
   "author": "Stanley Masinde",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stannlee/mashaka-bot/issues"
+  },
+  "homepage": "https://github.com/stannlee/mashaka-bot#readme",
   "dependencies": {
-    "telegraf": "^3.32.0",
-    "telegraf-ratelimit": "^2.0.0"
+    "telegraf": "^3.36.0"
   }
 }

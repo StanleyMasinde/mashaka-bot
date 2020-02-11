@@ -1,0 +1,7 @@
+const config = {
+    TOKEN: '885517459:AAHTHnfWMbAA97pCHYepBJpwj3Ysz2XVQJA',
+    BOT_ADMIN: '',
+    GREETINGS: ['Hello', 'hello', 'Hi', 'hi', 'Sasa', 'mambo']
+}
+
+export default Object.freeze(config)
