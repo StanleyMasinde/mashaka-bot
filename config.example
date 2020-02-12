@@ -1,5 +1,5 @@
 const config = {
-    TOKEN: '885517459:AAHTHnfWMbAA97pCHYepBJpwj3Ysz2XVQJA',
+    TOKEN: '',
     BOT_ADMIN: '',
     GREETINGS: ['Hello', 'hello', 'Hi', 'hi', 'Sasa', 'mambo']
 }
