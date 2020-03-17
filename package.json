@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/stannlee/mashaka-bot#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "telegraf": "^3.36.0"
   }
 }
